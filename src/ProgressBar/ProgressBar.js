@@ -163,6 +163,7 @@ class ProgressBar extends PureComponent {
                                                     role="progressbar"
                                                     aria-busy="true"
                                                     aria-labelledby="std0123"
+                                                    tabindex="0"
                                                 >
                                                     <Loop />
                                                 </Box>
@@ -174,7 +175,7 @@ class ProgressBar extends PureComponent {
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
-                                    <TableCell component="th" scope="row" id="std0123">Jessica Norton 5</TableCell>
+                                    <TableCell component="th" scope="row" id="std0123">Jessica Norton 51</TableCell>
                                     <TableCell align="right">1</TableCell>
                                     <TableCell align="right">progressbar, aria-busy, aria-labeledby, srOnly</TableCell>
                                     <TableCell align="right">
@@ -183,7 +184,8 @@ class ProgressBar extends PureComponent {
                                                 <Box
                                                     role="progressbar"
                                                     aria-busy="true"
-                                                    aria-labelledby="std0123"
+                                                    aria-labelledby="std0123 sty12345"
+                                                    tabindex="0"
                                                 >
                                                     <Loop title="Lorem ipsum" />
                                                     <Typography id="sty12345" variant="srOnly">Syncrinization is in progress</Typography>
